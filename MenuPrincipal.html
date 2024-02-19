@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Desglosando el Videojuego - MHTri | Menu Principal</title>
+        <link rel="stylesheet" href="css/MH3.css">
+        <style>
+            .item1 { grid-area: header; }
+            .item2 { grid-area: left; }
+            .item3 { grid-area: main; }
+            .item4 { grid-area: right; }
+            .item5 { grid-area: footer; }
+            
+            .grid-container {
+            display: grid;
+            grid-template-areas:
+                'header header header header header header'
+                'left main main main main right'
+                'footer footer footer footer footer footer';
+            gap: 5px;
+            background-color: #2196F3;
+            padding: 20px;
+            }
+
+            .grid-container > div {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+            }
+            
+        </style>
+
+        
+    </head>
+
+    <body>
+        <div class="grid-container">
+            <div class="item1">
+                <div class="encabezado">
+                    <ul>
+                        <li><img src="Imagenes/IconoPaginaWebDEV.png" alt="Icono Pagina" width="128" height="128"><br>Desglosando el videojuego</li>
+                        <li><a href="MenuPrincipal.html" target="_self">Menu Principal</a></li>
+                        <li><a href="IntroduccionAlJuego.html" target="_self">Introduccion al juego</a></li>
+                        <li><a href="Localizaciones.html" target="_self">Localizaciones</a></li>
+                        <li>Monstruos</li>
+                        <li><a href="MonstruosPequenyos.html" target="_self">Monstruos Pequenyos</a></li>
+                        <li><a href="MonstruosGrandes.html" target="_self">Monstruos Grandes</a></li>
+                        <li><a href="TiposDeArmas.html" target="_self">Tipos de Armas</a></li>
+                        <li><a href="Armaduras.html" target="_self">Armaduras</a></li>
+                        <li><a href="ElementosDeEstado.html" target="_self">Elementos De Estado</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item2">Left</div>
+
+            <div class="item3">                
+                <h1>Desglosando el Videojuego - MHTri</h1>
+                <h2>Domina las artes de la caza con nuestra guia de la tercera entrega de una de las sagas mas reconocidas en el RPG actual</h2>
+        
+                <p>
+                    Bienvenidos a esta breve guia que reune los aspectos mas importantes del reconocido juego Monster Hunter Tri,
+                    con datos y trucos que te permitiran explorar por completo su mundo y todo lo que ofrece tanto para los mas 
+                    curtidos en la saga, como para aquellos que les entusiasme los juegos de rol y aventuras y deseen ampliar sus
+                    horizontes. ¡Enfrentate a los monstruos mas amenazantes y conviertete en el heroe que la Aldea de Moga necesita!
+                </p>
+                <br>
+        
+                <img src="Imagenes/PortadaMHTri1.jpg" alt="Portada Monster Hunter Tri" width="50%" height="50%"><br><br>
+            </div>  
+
+            <div class="item4">Right</div>
+            
+            <div class="item5">                
+                <div class="pieDePagina">
+                <img src="Imagenes/IconoPaginaWebDEV.png" alt="Icono Pagina Web" width="128" height="128">
+    
+                <ul>
+                    <li><a href="https://moodle.mariaanasanz.es/">Terminos y condiciones de servicio</a></li>
+                    <li><a href="https://classroom.google.com/">Politica de Cookies</a></li>
+                    <li><a href="Bibliografia.html">Bibliografia</a></li>
+                </ul>
+    
+                <ul>
+                    <li><a href="Formulario.html">Encuesta de satisfaccion</a></li>
+                    <li>Siguenos en nuestras redes sociales:</li>
+                    <li>
+                        <a href="https://www.youtube.com/?hl=es&gl=ES"><img src="Imagenes/IconoYoutube.png" alt="Icono Youtube" width="32" height="32"></a> 
+                        <a href="https://twitter.com/?lang=es"><img src="Imagenes/IconoTwitter.png" alt="Icono Twitter" width="32" height="32"></a> 
+                        <a href="https://www.facebook.com/?locale=es_ES"><img src="Imagenes/IconoFacebook.png" alt="Icono Facebook" width="32" height="32"></a>
+                        <a href="https://www.twitch.tv/"><img src="Imagenes/IconoInstagram.png" alt="Icono Instagram" width="32" height="32"></a>
+                    </li>
+                </ul></div>
+
+            </div>
+          </div>
+
+
+        
+    </body>
+
+    <footer>
+        
+    </footer>
+
+</html>

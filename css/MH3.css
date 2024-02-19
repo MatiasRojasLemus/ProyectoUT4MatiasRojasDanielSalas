@@ -1,0 +1,10 @@
+div.encabezado > ul, div.pieDePagina > ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  table, th, td{
+    border:1px solid black;
+    text-align: center;
+  }
