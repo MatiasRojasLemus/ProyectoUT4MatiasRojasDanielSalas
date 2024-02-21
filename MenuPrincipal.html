@@ -2,60 +2,37 @@
 <html>
     <head>
         <title>Desglosando el Videojuego - MHTri | Menu Principal</title>
-        <link rel="stylesheet" href="css/MH3.css">
-        <style>
-            .item1 { grid-area: header; }
-            .item2 { grid-area: left; }
-            .item3 { grid-area: main; }
-            .item4 { grid-area: right; }
-            .item5 { grid-area: footer; }
-            
-            .grid-container {
-            display: grid;
-            grid-template-areas:
-                'header header header header header header'
-                'left main main main main right'
-                'footer footer footer footer footer footer';
-            gap: 5px;
-            background-color: #2196F3;
-            padding: 20px;
-            }
-
-            .grid-container > div {
-            background-color: rgba(255, 255, 255, 0.8);
-            text-align: center;
-            padding: 20px 0;
-            font-size: 30px;
-            }
-            
-        </style>
-
-        
+        <link rel="stylesheet" href="css/MH3Global.css">
+        <link rel="stylesheet" href="css/MH3MenuPrincipal.css">        
     </head>
 
     <body>
-        <div class="grid-container">
-            <div class="item1">
-                <div class="encabezado">
-                    <ul>
-                        <li><img src="Imagenes/IconoPaginaWebDEV.png" alt="Icono Pagina" width="128" height="128"><br>Desglosando el videojuego</li>
-                        <li><a href="MenuPrincipal.html" target="_self">Menu Principal</a></li>
-                        <li><a href="IntroduccionAlJuego.html" target="_self">Introduccion al juego</a></li>
-                        <li><a href="Localizaciones.html" target="_self">Localizaciones</a></li>
-                        <li>Monstruos</li>
-                        <li><a href="MonstruosPequenyos.html" target="_self">Monstruos Pequenyos</a></li>
-                        <li><a href="MonstruosGrandes.html" target="_self">Monstruos Grandes</a></li>
-                        <li><a href="TiposDeArmas.html" target="_self">Tipos de Armas</a></li>
-                        <li><a href="Armaduras.html" target="_self">Armaduras</a></li>
-                        <li><a href="ElementosDeEstado.html" target="_self">Elementos De Estado</a></li>
-                    </ul>
-                </div>
+        <div class="contenedorGlobal">
+            <div class="esquina1">
+                <img src="Imagenes/IconoPaginaWebDEV.png" alt="Icono Pagina Web" width="96" height="96"><br>
+                <p>DEV</p>
             </div>
-            <div class="item2">Left</div>
 
-            <div class="item3">                
+            <div class="encabezado">
+                <div class="encabezado1"></div>
+                <div class="encabezado2">
+                    <a href="MenuPrincipal.html" target="_self" style="color: white; font-size: 15px;">Menu Principal</a>
+                    <a href="IntroduccionAlJuego.html" target="_self" style="color: white; font-size: 15px;">Introduccion al juego</a>
+                    <a href="Localizaciones.html" target="_self" style="color: white; font-size: 15px;">Localizaciones</a>
+                    <a href="" target="_self" style="color: white; font-size: 15px;">Monstruos</a>
+                    <a href="MonstruosPequenyos.html" target="_self" style="color: white; font-size: 15px;">Monstruos Pequenyos</a>
+                    <a href="MonstruosGrandes.html" target="_self" style="color: white; font-size: 15px;">Monstruos Grandes</a>
+                    <a href="TiposDeArmas.html" target="_self" style="color: white; font-size: 15px;">Tipos de Armas</a>
+                    <a href="Armaduras.html" target="_self" style="color: white; font-size: 15px;">Armaduras</a>
+                    <a href="ElementosDeEstado.html" target="_self" style="color: white; font-size: 15px;">Elementos De Estado</a>
+                </div>
+                <div class="encabezado3"></div>
+            </div>
+            <div class="lateralIzq"></div>
+
+            <div class="centro" >                
                 <h1>Desglosando el Videojuego - MHTri</h1>
-                <h2>Domina las artes de la caza con nuestra guia de la tercera entrega de una de las sagas mas reconocidas en el RPG actual</h2>
+                <h2 >Domina las artes de la caza con nuestra guia de la tercera entrega de una de las sagas mas reconocidas en el RPG actual</h2>
         
                 <p>
                     Bienvenidos a esta breve guia que reune los aspectos mas importantes del reconocido juego Monster Hunter Tri,
@@ -68,38 +45,35 @@
                 <img src="Imagenes/PortadaMHTri1.jpg" alt="Portada Monster Hunter Tri" width="50%" height="50%"><br><br>
             </div>  
 
-            <div class="item4">Right</div>
-            
-            <div class="item5">                
-                <div class="pieDePagina">
-                <img src="Imagenes/IconoPaginaWebDEV.png" alt="Icono Pagina Web" width="128" height="128">
-    
-                <ul>
-                    <li><a href="https://moodle.mariaanasanz.es/">Terminos y condiciones de servicio</a></li>
-                    <li><a href="https://classroom.google.com/">Politica de Cookies</a></li>
-                    <li><a href="Bibliografia.html">Bibliografia</a></li>
-                </ul>
-    
-                <ul>
-                    <li><a href="Formulario.html">Encuesta de satisfaccion</a></li>
-                    <li>Siguenos en nuestras redes sociales:</li>
-                    <li>
-                        <a href="https://www.youtube.com/?hl=es&gl=ES"><img src="Imagenes/IconoYoutube.png" alt="Icono Youtube" width="32" height="32"></a> 
-                        <a href="https://twitter.com/?lang=es"><img src="Imagenes/IconoTwitter.png" alt="Icono Twitter" width="32" height="32"></a> 
-                        <a href="https://www.facebook.com/?locale=es_ES"><img src="Imagenes/IconoFacebook.png" alt="Icono Facebook" width="32" height="32"></a>
-                        <a href="https://www.twitch.tv/"><img src="Imagenes/IconoInstagram.png" alt="Icono Instagram" width="32" height="32"></a>
-                    </li>
-                </ul></div>
+            <div class="lateralDer"></div>
 
+            <div class="esquina2">
+                <img src="Imagenes/IconoPaginaWebDEV.png" alt="Icono Pagina Web" width="96" height="96"><br>
+                <p>DEV</p>
             </div>
-          </div>
 
+            <div class="piePagina">
+                <div class="piePagina1">
+                    <ul style="list-style-type: none; margin: 0; padding-left: 20px;">
+                        <li style="padding-bottom: 10px;"><a href="https://moodle.mariaanasanz.es/" style="font-size: 15px; color: white;">Terminos y condiciones de servicio</a></li>
+                        <li style="padding-bottom: 10px;"><a href="https://classroom.google.com/" style="font-size: 15px; color: white;">Politica de Cookies</a></li>
+                        <li style="padding-bottom: 10px;"><a href="Bibliografia.html" style="font-size: 15px; color: white;">Bibliografia</a></li>
+                    </ul>                
+                </div>
 
-        
+                <div class="piePagina2">
+                    <ul style="list-style-type: none; margin: 0; padding-left: 20px;">
+                        <li style="padding-bottom: 10px;"><a href="Formulario.html" style="font-size: 15px; color: white;">Encuesta de satisfaccion</a></li>
+                        <li style="padding-bottom: 10px;"><span style="font-size: 15px; color: white;">Siguenos en nuestras redes sociales:</span></li>
+                        <li>
+                            <a href="https://www.youtube.com/?hl=es&gl=ES" style="font-size: 15px; color: white;"><img src="Imagenes/IconoYoutube.png" alt="Icono Youtube" width="32" height="32"></a> 
+                            <a href="https://twitter.com/?lang=es" style="font-size: 15px; color: white;"><img src="Imagenes/IconoTwitter.png" alt="Icono Twitter" width="32" height="32"></a> 
+                            <a href="https://www.facebook.com/?locale=es_ES" style="font-size: 15px; color: white;"><img src="Imagenes/IconoFacebook.png" alt="Icono Facebook" width="32" height="32"></a>
+                            <a href="https://www.twitch.tv/" style="font-size: 15px; color: white;"><img src="Imagenes/IconoInstagram.png" alt="Icono Instagram" width="32" height="32"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </body>
-
-    <footer>
-        
-    </footer>
-
 </html>
