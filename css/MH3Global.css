@@ -1,0 +1,108 @@
+div.encabezado > ul, div.pieDePagina > ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  table, th, td{
+    border:1px solid black;
+    text-align: center;
+  }
+
+
+  .esquina1 {grid-area: esquina1;}
+  .encabezado { grid-area: encabezado; }
+  .lateralIzq { grid-area: lateralIzq; }
+  .centro { grid-area: centro; }
+  .lateralDer { grid-area: lateralDer; }
+  .esquina2 { grid-area: esquina2;}
+  .piePagina { grid-area: piePagina; }
+  
+  .contenedorGlobal {
+  display: grid;
+  grid-template-areas:
+      'esquina1 esquina1 encabezado encabezado encabezado encabezado encabezado encabezado encabezado encabezado'
+      'lateralIzq centro centro centro centro centro centro centro centro lateralDer'
+      'lateralIzq centro centro centro centro centro centro centro centro lateralDer'
+      'lateralIzq centro centro centro centro centro centro centro centro lateralDer'
+      'lateralIzq centro centro centro centro centro centro centro centro lateralDer'
+      'esquina2 esquina2 piePagina piePagina piePagina piePagina piePagina piePagina piePagina piePagina';
+      gap: 12px;
+      background-color: #003f72;
+      padding: 10px;
+      }
+
+  .encabezado1{grid-area: encabezado1;}
+  .encabezado2{grid-area: encabezado2;}
+  .encabezado3{grid-area: encabezado3;}
+  
+  .encabezado{
+    display: grid;
+    grid-template-areas: 
+    'encabezado1'
+    'encabezado2'
+    'encabezado3';
+    gap: 12px;
+    background-color: #003f72;
+    padding: 10px;
+  }
+
+  .piePagina1{grid-area: piePagina1;}
+  .piePagina2{grid-area: piePagina2;}
+
+  .piePagina{
+    display: grid;
+    grid-template-areas: 'piePagina1 piePagina2';
+    gap: 12px;
+    background-color: #003f72;
+    padding: 10px;
+  }
+
+
+  .contenedorGlobal > div {
+  font-size: 10px;
+  font-family: Arial;
+  }
+
+  .encabezado > p, .encabezado > a{
+    font-size: 15px;
+    color: white;
+}
+
+  .lateralDer{
+    padding-left: 150px;
+  }
+
+.lateralIzq{
+    padding-right: 150px;
+  }
+
+.esquina1,.esquina2{
+  color: white;
+  text-align: center;
+  }
+
+.centro{
+  background-color: rgb(255, 232, 156);
+  padding: 10px;
+
+}
+
+p{
+  font-size: 15px;
+  text-align: justify;
+}
+
+.piePagina1, .piePagina2{
+  text-align: left;
+  width: 200%;
+}
+
+.esquina1,.encabezado,.lateralIzq,.lateralDer,.esquina2,.piePagina{
+  background-color: #003f72;
+}
+
+hr{
+  border: 10px solid #003f72;
+  border-radius: 5px;
+}
