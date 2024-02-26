@@ -1,0 +1,23 @@
+h3::first-letter {
+    font-size: 120%;}
+    p::first-letter {
+    font-size: 150%;}
+
+#Imagen1 {
+    float: left; padding: 10px;
+}
+
+#ImagenCasa{
+    width: 30%;
+    height: 30%
+}
+
+h3{
+    font-size: 30px; text-align: left;
+}
+
+#TablaResumen{
+    float: right;
+    bottom: 0px;
+    right: 150px;
+}

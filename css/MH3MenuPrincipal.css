@@ -1,7 +1,3 @@
-.centro > p{
-    text-align: justify;
-}
-
 h1{
     font-size: 300%;
     text-align: center;
@@ -10,3 +6,14 @@ h1{
 h2{
     text-align: center;
 }
+
+#PortadaMH3{
+    width:600px; 
+    height:400px;
+}
+
+p{
+    float: left;
+}
+
+

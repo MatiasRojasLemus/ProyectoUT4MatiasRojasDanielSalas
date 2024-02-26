@@ -1,0 +1,29 @@
+
+
+.TablaArmadura > table{
+  width: 1000px;
+  height: 300px;
+}
+
+.TablaArmadura{
+    padding: 20px;
+  }
+
+td > img{
+width: 256px;
+height: 256px;
+}
+
+th,td{
+    width: 200px;
+}
+
+th{
+    background-color:#003f72;
+    color: rgba(255, 255, 0, 0.956);
+    font-weight: bolder;
+}
+
+td{
+    background-color:#2886b8 ;
+}
