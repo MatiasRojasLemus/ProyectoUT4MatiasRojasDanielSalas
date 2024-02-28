@@ -11,22 +11,25 @@ body{
   background-color: rgb(255, 232, 156);
   padding-bottom: 100px;
   padding: 15px;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 div.piePagina1 > img{
   width: 96px;
   height: 96px;
 }
+div.encabezado1{
+  width: 150px;
+}
 
 div.encabezado1 > img{
-  width: 96px;
-  height: 96px;
+  width: 48px;
+  object-fit: cover;
 }
 
 div.encabezado2 > a{
   color: white; font-size: 15px;
-  padding: 15px;
+  padding-right:10px;
   font-size: 20px;
 }
 
@@ -48,11 +51,6 @@ div.piePagina > ul{
 div > ul > li > a{
   color: white;
 }
- 
-table, th, td{
-    border:1px solid black;
-    text-align: center;
-  }
 
 
 .encabezado { grid-area: encabezado; }
@@ -136,4 +134,13 @@ hr{
   border-radius: 60px;
   width: 60px; 
   height: 60px
+}
+
+h1{
+  text-align: center;
+  font-size: 50px;
+}
+
+h2{
+  text-align: center;
 }

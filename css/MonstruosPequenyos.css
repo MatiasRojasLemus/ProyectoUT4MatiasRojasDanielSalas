@@ -1,0 +1,23 @@
+h3{
+    text-align: center;
+}
+
+.Tarjeta{
+    width: 300px;
+    height: 600px;
+    border: 1px solid black;
+}
+
+
+div.Tarjeta > img{
+    height:200px; 
+    width:200px
+}
+
+div.Tarjeta > p{
+    margin: 10px;
+}
+
+div.Tarjeta > h4{
+    text-align: center;
+}

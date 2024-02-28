@@ -8,12 +8,23 @@ h2{
 }
 
 #PortadaMH3{
-    width:600px; 
-    height:400px;
+    width: 150px; 
+    height:90px;
+    float: left;
+    margin-right: 10px;
+    box-shadow: 10px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+#PortadaMH4{
+    width: 150px;
+    height: 90px;
+    float: right;
 }
 
 p{
-    float: left;
+    float:inline-end;
 }
 
 

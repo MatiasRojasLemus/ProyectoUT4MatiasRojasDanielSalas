@@ -1,7 +1,10 @@
-
+table, th, td{
+  border:1px solid black;
+  text-align: center;
+}
 
 .TablaArmadura > table{
-  width: 1000px;
+  width: 1250px;
   height: 300px;
 }
 
@@ -26,4 +29,27 @@ th{
 
 td{
     background-color:#2886b8 ;
+}
+
+div.Subindice{
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    width: 150px;
+}
+
+th > a{
+  color: white;
+}
+
+th > a:hover{
+  color: yellow;
+}
+
+.centro{
+  padding-bottom: 100px;
+}
+
+.encabezado{
+  height: 50px;
 }
