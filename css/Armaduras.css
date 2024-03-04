@@ -35,7 +35,7 @@ div.Subindice{
     position: fixed;
     right: 0px;
     top: 0px;
-    width: 150px;
+    width: 148px;
 }
 
 th > a{
@@ -53,3 +53,32 @@ th > a:hover{
 .encabezado{
   height: 50px;
 }
+
+
+
+
+/* Tamaño movil (Desde 360px hasta 400px) */
+@media only screen and (min-width:360px) and (max-width:400px) {
+    
+}
+
+
+
+/* Tamaño tablet (Desde 768px hasta 1024px) */
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    
+}
+
+
+
+/* Pantallas a partir de 1024px  */
+@media only screen and (min-width: 1024px) {
+    
+
+  }
+
+
+
+  
+
+

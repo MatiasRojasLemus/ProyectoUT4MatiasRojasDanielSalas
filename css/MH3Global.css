@@ -31,6 +31,7 @@ div.encabezado2 > a{
   color: white; font-size: 15px;
   padding-right:10px;
   font-size: 20px;
+  text-decoration: none;
 }
 
 div.encabezado2 > a:hover{
@@ -50,6 +51,11 @@ div.piePagina > ul{
 
 div > ul > li > a{
   color: white;
+  text-decoration: none;
+}
+
+a[href]{
+  text-decoration: none;
 }
 
 
@@ -128,8 +134,8 @@ hr{
 
 .FlechaAnclada{
   position: fixed; 
-  left: 88%; 
-  bottom: 50px;
+  right: 0px; 
+  bottom: 0px;
   background-color: rgba(255, 255, 255, 0.628); 
   border-radius: 60px;
   width: 60px; 
@@ -137,10 +143,340 @@ hr{
 }
 
 h1{
-  text-align: center;
   font-size: 50px;
 }
 
-h2{
+h1,h2{
   text-align: center;
 }
+
+
+
+
+
+
+
+/* Tamaño movil (Desde 360px hasta 400px) */
+  @media only screen and (min-width:360px) and (max-width:400px) {
+
+  }
+
+
+
+/* Tamaño tablet (Desde 768px hasta 1024px) */
+  @media only screen and (min-width:768px) and (max-width:1024px) {
+    body{
+      margin: 0;
+    }
+    
+    .contenedorGlobal > div {
+      font-size: 15px;
+      font-family: Arial;
+    }
+    
+    .centro{
+      background-color: rgb(255, 232, 156);
+      padding-bottom: 100px;
+      padding: 15px;
+      margin-top: 50px;
+    }
+    
+    div.piePagina1 > img{
+      width: 96px;
+      height: 96px;
+    }
+    div.encabezado1{
+      width: 150px;
+    }
+    
+    div.encabezado1 > img{
+      width: 48px;
+      object-fit: cover;
+    }
+    
+    div.encabezado2 > a{
+      color: white; font-size: 15px;
+      padding-right:10px;
+      font-size: 20px;
+      text-decoration: none;
+    }
+    
+    div.encabezado2 > a:hover{
+      color: yellow;
+    }
+    
+    div > ul > li > a:hover{
+      color: rgb(255, 255, 0);
+    }
+    
+    div.piePagina > ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+    
+    
+    div > ul > li > a{
+      color: white;
+      text-decoration: none;
+    }
+    
+    a[href]{
+      text-decoration: none;
+    }
+    
+    
+    .encabezado { grid-area: encabezado; }
+    .lateralIzq { grid-area: lateralIzq; }
+    .centro { grid-area: centro; }
+    .lateralDer { grid-area: lateralDer; }
+    .piePagina { grid-area: piePagina; }
+    
+    
+    .contenedorGlobal {
+      display: grid;
+      grid-template-areas:
+          'encabezado encabezado encabezado encabezado encabezado encabezado encabezado encabezado encabezado encabezado'
+          'lateralIzq centro centro centro centro centro centro centro centro lateralDer'
+          'lateralIzq centro centro centro centro centro centro centro centro lateralDer'
+          'lateralIzq centro centro centro centro centro centro centro centro lateralDer'
+          'lateralIzq centro centro centro centro centro centro centro centro lateralDer'
+          'piePagina piePagina piePagina piePagina piePagina piePagina piePagina piePagina piePagina piePagina';
+          background-color: #003f72;
+          }
+    
+    .encabezado1{grid-area: encabezado1;}
+    .encabezado2{grid-area: encabezado2;}
+      
+    .encabezado{
+        display: grid;
+        grid-template-areas: 
+        'encabezado1 encabezado1 encabezado2 encabezado2 encabezado2 encabezado2 encabezado2 encabezado2 encabezado2 encabezado2';
+        background-color: #003f72;
+        position: fixed;
+        width: 50%;
+      }
+    
+      
+    
+    .piePagina1{grid-area: piePagina1;}
+    .piePagina2{grid-area: piePagina2;}
+    .piePagina3{grid-area: piePagina3;}
+    
+    .piePagina{
+        display: grid;
+        grid-template-areas: 'piePagina1 piePagina1 piePagina2 piePagina2 piePagina2 piePagina2 piePagina3 piePagina3 piePagina3 piePagina3';
+        gap: 12px;
+        background-color: #003f72;
+        padding: 10px;
+      }
+    
+    
+    .lateralDer{
+        padding-left: 150px;
+      }
+    
+    .lateralIzq{
+        padding-right: 150px;
+      }
+    
+    p{
+      font-size: 15px;
+      text-align: justify;
+    }
+    
+    .piePagina2, .piePagina3{
+      text-align: left;
+      width: 200%;
+    }
+    
+    .encabezado,.lateralIzq,.lateralDer,.piePagina{
+      background-color: #003f72;
+    }
+    
+    hr{
+      border: 10px solid #003f72;
+      border-radius: 5px;
+    }
+    
+    .FlechaAnclada{
+      position: fixed; 
+      right: 0px; 
+      bottom: 0px;
+      background-color: rgba(255, 255, 255, 0.628); 
+      border-radius: 30px;
+      width: 30px; 
+      height: 30px
+    }
+    
+    h1{
+      font-size: 50px;
+    }
+    
+    h1,h2{
+      text-align: center;
+    }
+  }
+
+
+
+/* Pantallas a partir de 1024px  */
+  @media only screen and (min-width: 1024px) {
+    body{
+      margin: 0;
+    }
+    
+    .contenedorGlobal > div {
+      font-size: 15px;
+      font-family: Arial;
+    }
+    
+    .centro{
+      background-color: rgb(255, 232, 156);
+      padding-bottom: 100px;
+      padding: 15px;
+      margin-top: 50px;
+    }
+    
+    div.piePagina1 > img{
+      width: 96px;
+      height: 96px;
+    }
+    div.encabezado1{
+      width: 150px;
+    }
+    
+    div.encabezado1 > img{
+      width: 48px;
+      object-fit: cover;
+    }
+    
+    div.encabezado2 > a{
+      color: white; font-size: 15px;
+      padding-right:10px;
+      font-size: 20px;
+      text-decoration: none;
+    }
+    
+    div.encabezado2 > a:hover{
+      color: yellow;
+    }
+    
+    div > ul > li > a:hover{
+      color: rgb(255, 255, 0);
+    }
+    
+    div.piePagina > ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+    
+    
+    div > ul > li > a{
+      color: white;
+      text-decoration: none;
+    }
+    
+    a[href]{
+      text-decoration: none;
+    }
+    
+    
+    .encabezado { grid-area: encabezado; }
+    .lateralIzq { grid-area: lateralIzq; }
+    .centro { grid-area: centro; }
+    .lateralDer { grid-area: lateralDer; }
+    .piePagina { grid-area: piePagina; }
+    
+    
+    .contenedorGlobal {
+      display: grid;
+      grid-template-areas:
+          'encabezado encabezado encabezado encabezado encabezado encabezado encabezado encabezado encabezado encabezado'
+          'lateralIzq centro centro centro centro centro centro centro centro lateralDer'
+          'lateralIzq centro centro centro centro centro centro centro centro lateralDer'
+          'lateralIzq centro centro centro centro centro centro centro centro lateralDer'
+          'lateralIzq centro centro centro centro centro centro centro centro lateralDer'
+          'piePagina piePagina piePagina piePagina piePagina piePagina piePagina piePagina piePagina piePagina';
+          background-color: #003f72;
+          }
+    
+    .encabezado1{grid-area: encabezado1;}
+    .encabezado2{grid-area: encabezado2;}
+      
+    .encabezado{
+        display: grid;
+        grid-template-areas: 
+        'encabezado1 encabezado1 encabezado2 encabezado2 encabezado2 encabezado2 encabezado2 encabezado2 encabezado2 encabezado2';
+        background-color: #003f72;
+        position: fixed;
+        width: 50%;
+      }
+    
+      
+    
+    .piePagina1{grid-area: piePagina1;}
+    .piePagina2{grid-area: piePagina2;}
+    .piePagina3{grid-area: piePagina3;}
+    
+    .piePagina{
+        display: grid;
+        grid-template-areas: 'piePagina1 piePagina1 piePagina2 piePagina2 piePagina2 piePagina2 piePagina3 piePagina3 piePagina3 piePagina3';
+        gap: 12px;
+        background-color: #003f72;
+        padding: 10px;
+      }
+    
+    
+    .lateralDer{
+        padding-left: 150px;
+      }
+    
+    .lateralIzq{
+        padding-right: 150px;
+      }
+    
+    p{
+      font-size: 15px;
+      text-align: justify;
+    }
+    
+    .piePagina2, .piePagina3{
+      text-align: left;
+      width: 200%;
+    }
+    
+    .encabezado,.lateralIzq,.lateralDer,.piePagina{
+      background-color: #003f72;
+    }
+    
+    hr{
+      border: 10px solid #003f72;
+      border-radius: 5px;
+    }
+    
+    .FlechaAnclada{
+      position: fixed; 
+      right: 0px; 
+      bottom: 0px;
+      background-color: rgba(255, 255, 255, 0.628); 
+      border-radius: 30px;
+      width: 30px; 
+      height: 30px
+    }
+    
+    h1{
+      font-size: 50px;
+    }
+    
+    h1,h2{
+      text-align: center;
+    }
+    }
+
+    
+  
+
+
+

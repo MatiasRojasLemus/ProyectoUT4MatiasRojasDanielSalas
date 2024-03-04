@@ -3,9 +3,14 @@ table, th, td{
     text-align: center;
   }
 
+table{
+    width: 200px;
+    height: 300px;
+}
 h3::first-letter {
     font-size: 120%;}
-    p::first-letter {
+
+p::first-letter {
     font-size: 150%;}
 
 #Imagen1 {
@@ -21,8 +26,62 @@ h3{
     font-size: 30px; text-align: left;
 }
 
-#TablaResumen{
-    float: right;
-    bottom: 0px;
-    right: 150px;
+.TablaResumen{
+    grid-area: Tabla;
+    margin-top: 100px;
 }
+
+
+h1{
+    font-size: 40px; 
+    text-align: center;
+    grid-area: Titulo;
+}
+.TextoIntroduccion{
+    grid-area: Texto;
+    padding-right: 20px;
+}
+
+.centro{
+    display: grid;
+    grid-template-areas: 
+    "Titulo Titulo Titulo Titulo Titulo Titulo Titulo Titulo Titulo Titulo"
+    "Texto Texto Texto Texto Texto Texto Texto Tabla Tabla Tabla"
+    "Texto Texto Texto Texto Texto Texto Texto Tabla Tabla Tabla"
+    "Texto Texto Texto Texto Texto Texto Texto Tabla Tabla Tabla"
+    "Texto Texto Texto Texto Texto Texto Texto Tabla Tabla Tabla"
+}
+
+
+
+
+
+
+
+
+/* Tamaño movil (Desde 360px hasta 400px) */
+@media only screen and (min-width:360px) and (max-width:400px) {
+    
+}
+
+
+
+/* Tamaño tablet (Desde 768px hasta 1024px) */
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    
+}
+
+
+
+/* Pantallas a partir de 1024px  */
+@media only screen and (min-width: 1024px) {
+    
+
+  }
+
+
+
+  
+
+
+
