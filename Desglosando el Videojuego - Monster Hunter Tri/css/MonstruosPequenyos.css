@@ -1,0 +1,89 @@
+h3{
+    text-align: center;
+}
+
+div.Tarjeta{
+    width: 30%;
+    height: 600px;
+    border: 1px solid black;
+    float: left;
+    padding: 10px;
+}
+
+.Especie{
+    display: inline-block;
+    width: 100%;
+}
+
+
+div.Tarjeta > img{
+    height:200px; 
+    width:200px;
+    left: 25%;
+    position: relative;
+}
+
+div.Tarjeta > p{
+    margin: 10px;
+}
+
+div.Tarjeta > h4{
+    text-align: center;
+}
+
+.encabezado{
+    z-index: 100;
+}
+
+div.Especie{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid black;
+}
+
+div.Especie:nth-child(odd){
+    background-color: rgba(0, 85, 255, 0.826); 
+}
+
+div.Especie:nth-child(even){
+    background-color: yellowgreen;
+}
+
+
+
+
+
+
+/* Tamaño movil (hasta 768px) */
+@media only screen and (max-width:768px) {
+    div.lateralIzq{
+        display: none;
+    }
+    div.lateralDer{
+        display: none;
+    }
+}
+
+
+
+/* Tamaño tablet (Desde 768px hasta 1024px) */
+@media only screen and (max-width:1024px) {
+    
+}
+
+
+
+/* Pantallas a partir de 1024px  */
+@media only screen and (min-width: 1024px) {
+    
+
+  }
+
+
+
+  
+
+
+
+
+

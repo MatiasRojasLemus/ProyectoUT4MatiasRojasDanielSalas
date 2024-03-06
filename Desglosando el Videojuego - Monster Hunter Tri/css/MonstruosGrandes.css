@@ -1,0 +1,74 @@
+table, th, td{
+    border:1px solid black;
+    text-align: center;
+  }
+
+  .TablaEspecie{
+    float: left;
+  }
+
+  .TablaEspecie img{
+    width:300px;
+    height:300px;
+  }
+
+  div.EspecieG{
+    display: inline-block;
+    margin: 30px;
+  }
+
+  div.TipoEspecie{
+    margin: 30px;
+    margin: 30px;
+  }
+
+  div.TipoEspecie:nth-child(even){
+    background-color: rgb(52, 188, 186);
+    border-radius: 50px;
+    border: 5px solid black;
+  }
+
+  div.TipoEspecie:nth-child(odd){
+    background-color: rgb(215, 215, 215);
+    border-radius: 50px;
+    border: 5px solid black;
+  }
+
+  #TextoIntroductorio{
+    text-align: center;
+  }
+
+
+
+/* Tamaño movil (hasta 768px) */
+@media only screen and (max-width:768px) {
+  div.lateralIzq{
+      display: none;
+  }
+  div.lateralDer{
+      display: none;
+  }
+}
+
+
+
+/* Tamaño tablet (Desde 768px hasta 1024px) */
+@media only screen and (max-width:1024px) {
+  
+}
+
+
+
+/* Pantallas a partir de 1024px  */
+@media only screen and (min-width: 1024px) {
+  
+
+}
+
+
+
+  
+
+
+
+

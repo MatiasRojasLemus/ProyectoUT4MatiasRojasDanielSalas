@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Desglosando el Videojuego - MHTri | Formulario</title>
+        <link rel="stylesheet" href="css/MH3Global.css">
+        <link rel="stylesheet" href="css/Formulario.css">
+        <link rel="icon" type="image/x-icon" href="Imagenes/Iconos/IconoPaginaWebDEV.png"> 
+    </head>
+    
+    <body>
+        <div class="contenedorGlobal">
+            <div class="encabezado">
+                <div class="encabezado1">
+                    <img src="Imagenes/Iconos/IconoPaginaWebDEV.png" alt="Icono Pagina Web"><br>
+                </div>
+
+                <div class="encabezado2">
+                    <a href="MenuPrincipal.html" target="_self">Menu Principal</a>
+                    <a href="IntroduccionAlJuego.html" target="_self">Introduccion al juego</a>
+                    <a href="Localizaciones.html" target="_self">Localizaciones</a>
+                    <a href="MonstruosPequenyos.html" target="_self">Monstruos Pequenyos</a>
+                    <a href="MonstruosGrandes.html" target="_self">Monstruos Grandes</a>
+                    <a href="Armaduras.html" target="_self">Armaduras</a>
+                </div>
+            </div>
+
+            <div class="lateralIzq"></div>
+    
+            <div class="centro">
+                <h1>Encuesta de valoracion</h1>
+                <p>
+                    Nos encantaria contar con su participacion en nuestra encuesta de valoracion de la pagina. 
+                    
+                    <br><br>
+    
+                    Su opinion es de suma importancia para nosotros, ya que nos ayuda a mejorar nuestras guias y articulos,
+                    asi que gradeceriamos que nos prestara unos minutos de su tiempo para responder a las siguientes preguntas. 
+                    
+                    <br><br>
+    
+                    Sus respuestas seran tratadas de forma confidencial y solo se utilizaran con el proposito de mejorar 
+                    nuestra calidad y su satisfaccion como consumidor.
+                    
+                    <br><br>
+    
+                    Su opinion nos permitira identificar areas en las que estamos cumpliendo con sus expectativas y también 
+                    áreas en las que podemos hacer mejoras. Valoramos sus comentarios y sugerencias, ya que nos ayudan a 
+                    garantizar que sigamos aportando el mejor de nuestros servicios.
+                    
+                    <br><br>
+    
+                    Desde Desglosando el Videojuego Agradecemos de corazon su participacion en esta encuesta y esperamos contar con sus 
+                    valiosas comentarios y aportaciones.
+                </p>
+    
+                <br>
+    
+                <form action="MenuPrincipal.html" method="get">
+                    <fieldset>
+                        <legend><b>Credenciales</b></legend>
+    
+                        <label for="Nombre">Nombre*</label><br>
+                        <input type="text" name="Nombre" id="Nombre" required><br><br>
+    
+                        <label for="Apellidos">Apellidos</label><br>
+                        <input type="text" name="Apellidos" id="Apellidos"><br><br>
+            
+                        <label for="CorreoElectronico">Correo Electronico*</label><br>
+                        <input type="text" name="CorreoElectronico" id="CorreoElectronico" required><br><br>
+                    </fieldset>
+    
+                    <br>
+    
+                    <fieldset>
+                        <legend><b>Valoracion personal</b></legend>
+    
+                        <label for="DificultadPagina">¿Te ha resultado facil o dificil explorar en nuestra pagina?</label>
+                        <select name="DificultadPagina" id="DificultadPagina">
+                            <option value="1">Ha sido bastate sencillo</option>
+                            <option value="2">No he tenido muchos problemas</option>
+                            <option value="3">Podia haber tenido menos problemas</option>
+                            <option value="4">Me ha sido muy costoso explorar</option>
+                        </select>
+    
+                        <p><b>Define del 1 al 5 que tan de acuerdo te encuentras con las siguientes afirmaciones:</b></p>
+    
+                        <table>
+                            <tr>
+                                <th></th>
+                                <th>Muy en desacuerdo</th>
+                                <th>En desacuerdo</th>
+                                <th>De acuerdo</th>
+                                <th>Muy de acuerdo</th>
+                                <th>Bastante de acuerdo</th>
+                            </tr>
+                            <tr>
+                                <th><label for="infoNecesitada">La pagina contiene toda la informacion que necesitaba</label></th>
+                                <td><input type="radio" name="infoNecesitada" id="infoNecesitada" value="1"></td>
+                                <td><input type="radio" name="infoNecesitada" id="infoNecesitada" value="2"></td>
+                                <td><input type="radio" name="infoNecesitada" id="infoNecesitada" value="3"></td>
+                                <td><input type="radio" name="infoNecesitada" id="infoNecesitada" value="4"></td>
+                                <td><input type="radio" name="infoNecesitada" id="infoNecesitada" value="5"></td>
+                            </tr>
+                            <tr>
+                                <th><label for="estructuraComoda">Me resulta comodo la estructura de las paginas</label></th>
+                                <td><input type="radio" name="estructuraComoda" id="estructuraComoda" value="1"></td>
+                                <td><input type="radio" name="estructuraComoda" id="estructuraComoda" value="2"></td>
+                                <td><input type="radio" name="estructuraComoda" id="estructuraComoda" value="3"></td>
+                                <td><input type="radio" name="estructuraComoda" id="estructuraComoda" value="4"></td>
+                                <td><input type="radio" name="estructuraComoda" id="estructuraComoda" value="5"></td>
+                            </tr>
+                            <tr>
+                                <th><label for="infoComprensible">La informacion de las paginas resultan comprensibles</label></th>
+                                <td><input type="radio" name="infoComprensible" id="infoComprensible" value="1"></td>
+                                <td><input type="radio" name="infoComprensible" id="infoComprensible" value="2"></td>
+                                <td><input type="radio" name="infoComprensible" id="infoComprensible" value="3"></td>
+                                <td><input type="radio" name="infoComprensible" id="infoComprensible" value="4"></td>
+                                <td><input type="radio" name="infoComprensible" id="infoComprensible" value="5"></td>
+                            </tr>
+                            <tr>
+                                <th><label for="confianzaWeb">Confio en este sitio web para buscar mas informacion</label></th>
+                                <td><input type="radio" name="confianzaWeb" id="confianzaWeb" value="1"></td>
+                                <td><input type="radio" name="confianzaWeb" id="confianzaWeb" value="2"></td>
+                                <td><input type="radio" name="confianzaWeb" id="confianzaWeb" value="3"></td>
+                                <td><input type="radio" name="confianzaWeb" id="confianzaWeb" value="4"></td>
+                                <td><input type="radio" name="confianzaWeb" id="confianzaWeb" value="5"></td>
+                            </tr>
+                            <tr>
+                                <th><label for="satisfechoWeb">Estoy satisfecho con el sitio web</label></th>
+                                <td><input type="radio" name="satisfechoWeb" id="satisfechoWeb" value="1"></td>
+                                <td><input type="radio" name="satisfechoWeb" id="satisfechoWeb" value="2"></td>
+                                <td><input type="radio" name="satisfechoWeb" id="satisfechoWeb" value="3"></td>
+                                <td><input type="radio" name="satisfechoWeb" id="satisfechoWeb" value="4"></td>
+                                <td><input type="radio" name="satisfechoWeb" id="satisfechoWeb" value="5"></td>
+                            </tr>
+                        </table>
+    
+                        <br><br>
+    
+                        <label for="ValoracionGuia">En base a sus valoraciones previas, del 1 al 10 ¿Como valorarias nuestra pagina?</label>
+                        <input type="number" min="0" max="10"><br><br>
+    
+                    </fieldset>
+    
+                    <br>
+    
+                    <fieldset>
+                        <legend><b>Comentarios y aportaciones</b></legend>
+                        <label for="SugerenciasAportaciones">¿De que videojuego te gustaria que hiciesemos la proxima guia o articulo? ¿Alguna sugerencia o aportacion que te gustaria compartir?</label><br>
+                        <textarea id="SugerenciasAportaciones" name="SugerenciasAportaciones" rows="4" cols="50"></textarea><br><br>
+                    </fieldset>
+    
+                    <br>
+    
+                    <input type="checkbox" id="RecibirNotificaciones" name="RecibirNotificaciones" value="True">
+                    <label for="RecibirNotificaciones">Me gustaria recibir notificaciones acerca de los proximos artículos y novedades</label>
+    
+                    <input type="submit" value="Entregar formulario"><br><br>  
+                </form>
+                
+                <a href=""><img src="Imagenes/Iconos/flechaAzul.png" class="FlechaAnclada" alt="Flecha Azul"></a>
+
+                <br>
+    
+                <div class="lateralDer"></div>
+                
+            </div>
+    
+            <div class="piePagina">
+                <div class="piePagina1">
+                    <img src="Imagenes/Iconos/IconoPaginaWebDEV.png" alt="Icono Pagina Web" ><br>
+                </div>
+                
+                <div class="piePagina2">
+                    <ul>
+                        <li><a href="https://moodle.mariaanasanz.es/">Terminos y condiciones de servicio</a></li>
+                        <li><a href="https://classroom.google.com/">Politica de Cookies</a></li>
+                        <li><a href="Bibliografia.html">Bibliografia</a></li>
+                    </ul>                
+                </div>
+
+                <div class="piePagina3">
+                    <ul>
+                        <li><a href="Formulario.html">Encuesta de satisfaccion</a></li>
+                        <li><span>Siguenos en nuestras redes sociales:</span></li>
+                        <li>
+                            <a href="https://www.youtube.com/?hl=es&gl=ES"><img src="Imagenes/Iconos/IconoYoutube.png" alt="Icono Youtube" ></a> 
+                            <a href="https://twitter.com/?lang=es"><img src="Imagenes/Iconos/IconoTwitter.png" alt="Icono Twitter"></a> 
+                            <a href="https://www.facebook.com/?locale=es_ES"><img src="Imagenes/Iconos/IconoFacebook.png" alt="Icono Facebook"></a>
+                            <a href="https://www.twitch.tv/"><img src="Imagenes/Iconos/IconoInstagram.png" alt="Icono Instagram"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
