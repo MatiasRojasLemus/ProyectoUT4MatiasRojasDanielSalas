@@ -11,6 +11,7 @@ table, th, td{
     display: inline-block;
     margin: 30px;
   }
+
   div.TipoEspecie{
     margin: 30px;
     margin: 30px;
@@ -34,23 +35,28 @@ table, th, td{
 
 
 
-/* Tamaño movil (Desde 360px hasta 400px) */
-@media only screen and (min-width:360px) and (max-width:400px) {
-    
+/* Tamaño movil (hasta 768px) */
+@media only screen and (max-width:768px) {
+  div.lateralIzq{
+      display: none;
+  }
+  div.lateralDer{
+      display: none;
+  }
 }
 
 
 
 /* Tamaño tablet (Desde 768px hasta 1024px) */
-@media only screen and (min-width:768px) and (max-width:1024px) {
-    
+@media only screen and (max-width:1024px) {
+  
 }
 
 
 
 /* Pantallas a partir de 1024px  */
 @media only screen and (min-width: 1024px) {
-
+  
 
 }
 

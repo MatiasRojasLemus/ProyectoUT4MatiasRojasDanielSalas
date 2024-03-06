@@ -7,7 +7,7 @@ h2{
     text-align: center;
 }
 
-#PortadaMH3{
+.IMGMP{
     width: 150px; 
     height:90px;
     float: left;
@@ -17,31 +17,60 @@ h2{
     object-fit: cover;
 }
 
-#PortadaMH4{
-    width: 150px;
-    height: 90px;
-    float: right;
-}
-
 p{
     float:inline-end;
 }
 
 
 
+div.MenuDesplegable{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+  }
+  
+  #Desplegable{
+    display: none;
+    width: 48px;
+    height: 48px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    
+  }
+  
+  
+  
+  
+  
+  /* Tamaño movil (hasta 400px) */
+@media only screen  and (max-width:400px) {
+    .lateralIzq, .lateralDer{
+        display: none;
+    }
+    .encabezado{
+        display: none;
+    }
 
 
+    .IMGMP{
+        width: 100%; 
+        height:auto;
+        float: left;
+        margin-right: 10px;
+        box-shadow: 10px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
 
-
-/* Tamaño movil (Desde 360px hasta 400px) */
-@media only screen and (min-width:360px) and (max-width:400px) {
     
 }
 
 
 
 /* Tamaño tablet (Desde 768px hasta 1024px) */
-@media only screen and (min-width:768px) and (max-width:1024px) {
+@media only screen and (max-width:1024px) {
     
 }
 
